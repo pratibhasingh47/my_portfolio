@@ -114,6 +114,7 @@
 		height: max-content;
 		width: 100%;
 		margin-left: 0;
+		column-gap: 6rem;
 	}
 
 	.image {
