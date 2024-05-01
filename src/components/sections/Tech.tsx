@@ -42,12 +42,8 @@ const Tech = () => {
 							</div>
 						))
 					}
-					{/* Add more tech items as needed */}
 				</div>
-				{/* Add more tech rows as needed */}
 			</div>
-
-
 
 		</>
 	);
