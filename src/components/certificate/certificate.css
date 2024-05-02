@@ -87,38 +87,43 @@
 
 
 
-@media (max-width:480px){
-	.certificate{
+@media (max-width:480px) {
+	.certificate {
 		font-size: 30px;
 	}
-	.title{
+
+	.title {
 		font-size: 14px;
 	}
-	.accordion-item{
+
+	.accordion-item {
 		font-size: 1.5rem;
 	}
-	.accordion-content{
+
+	.accordion-content {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 	}
-	.certificate-card{
+
+	.certificate-card {
 		width: 95%;
 		height: max-content;
 		display: inline-block;
 		margin-left: 0%;
 	}
-	.image{
+
+	.image {
 		width: 90%;
 		height: 80%;
 		margin: 1rem;
 	}
-	.certificate-title{
+
+	.certificate-title {
 		margin-top: 0;
 		margin-bottom: 1rem;
 		text-align: center;
 		font-size: 14px;
 	}
 }
-
