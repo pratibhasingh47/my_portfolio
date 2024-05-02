@@ -69,9 +69,9 @@ const Contact = () => {
       );
   };
 
-  const openResumePDF = () => {
-    window.open('src/assets/Resume_Pratibha.pdf', '_blank');
-  };
+  // const openResumePDF = () => {
+  //   window.open('src/assets/Resume_Pratibha.pdf', '_blank');
+  // };
 
   return (
     <div
@@ -115,15 +115,15 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
-          
+
         </form>
 
-        <button
+        {/* <button
           onClick={openResumePDF}
           className="bg-tertiary shadow-primary w-fit rounded-xl px-8 py-3 font-bold text-white shadow-md outline-none mt-4"
         >
           View Resume
-        </button>
+        </button> */}
       </motion.div>
 
       <motion.div
