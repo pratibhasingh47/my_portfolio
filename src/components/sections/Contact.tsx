@@ -22,7 +22,6 @@ const emailjsConfig = {
 emailjs.init('VX9WHcV0cLyJR1bIF');
 
 
-
 const Contact = () => {
   const formRef = useRef<React.LegacyRef<HTMLFormElement> | undefined>();
   const [form, setForm] = useState(INITIAL_STATE);
@@ -70,6 +69,10 @@ const Contact = () => {
       );
   };
 
+  const openResumePDF = () => {
+    window.open('src/assets/Resume_Pratibha.pdf', '_blank');
+  };
+
   return (
     <div
       className={`flex flex-col-reverse gap-10 overflow-hidden xl:mt-12 xl:flex-row`}
@@ -112,7 +115,15 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
+          
         </form>
+
+        <button
+          onClick={openResumePDF}
+          className="bg-tertiary shadow-primary w-fit rounded-xl px-8 py-3 font-bold text-white shadow-md outline-none mt-4"
+        >
+          View Resume
+        </button>
       </motion.div>
 
       <motion.div
