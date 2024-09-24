@@ -317,7 +317,7 @@ const projects: TProject[] = [
   //     ],
   //     image: sps,
   //     sourceCodeLink: 'https://github.com/pratibhasingh47/Stone-paper-scissor',
-        // ,}
+  // ,}
 ];
 
 export { services, technologies, experiences, projects };
