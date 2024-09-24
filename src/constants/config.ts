@@ -71,8 +71,8 @@ export const config: TConfig = {
 			h2: "Overview.",
 			content: `Hi Everyone, I am Pratibha Singh from Udaipur, India.
                 I am currently pursuing Computer Science and Engineering at Techno India NJR
-                I'm a Full Stack developer with experience in JavaScript and
-                C++, and expertise in frameworks like React, Node.js, and
+                I'm a Full Stack developer with experience in JavaScript, Nodejs and
+                Java, and expertise in frameworks like React ,MongoDB and
                 next.js. I'm a constant learner and always focus on developing new skills.
                 Also I am open to work as I am having skills like problem solving ,developing modern UI/UX
                 designs and user-friendly solutions that solve

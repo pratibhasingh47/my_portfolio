@@ -12,6 +12,7 @@ import tictactoe from './tic-tac-toe.png';
 import sps from './sps.png';
 import loginp from './login (1).png';
 import weather from './weather.png';
+import notepad from './notepad.png';
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -32,6 +33,12 @@ import python from './tech/python.png';
 import nextjs from './tech/Next_JS.png';
 import yarn from './tech/yarn.png';
 import archlinux from './tech/archlinux.png';
+import java from './tech/java.png';
+import shellScript from './tech/shellScript.png';
+import php from './tech/php.png';
+import kali from './tech/kali.svg';
+import react_todo from './react_todo.png';
+import digency from './digency.png';
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -112,15 +119,22 @@ export {
     linkedin,
     c,
     cpp,
+    java,
+    shellScript,
     python,
     nextjs,
     yarn,
     archlinux,
+    kali,
+    php,
     amazon,
     tictactoe,
     sps,
     loginp,
     weather,
+    notepad,
+    react_todo,
+    digency,
 
     CodeChef1,
     CodeChef2,
